@@ -1,2 +1,2 @@
-gunicorn run:app -—daemon
+gunicorn run:app --daemon
 python worker.py 
